@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav id="navbar">
+  <header>HTML Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Home</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >Introduction</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript_and_Java">Editors</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Basic</a></li>
+    <li><a class="nav-link" href="#Variables">Elements</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Attributes</a>
+    </li>
+    <li><a class="nav-link" href="#Variable_scope">Headings</a></li>
+    <li><a class="nav-link" href="#Global_variables">Paragraphs</a></li>
+    <li><a class="nav-link" href="#Constants">Styles</a></li>
+    <li><a class="nav-link" href="#Data_types">Formatting</a></li>
+    <li>
+      <a class="nav-link" href="#if...else_statement">Quotations</a>
+    </li>
+    <li><a class="nav-link" href="#while_statement">Comments</a></li>
+    <li>
+      <a class="nav-link" href="#Function_declarations"
+        >Colors</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Home</header>
+    <article>
+      <p>
+        HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>Introducton</header>
+    <article>
+      <p>What is HTML?</p>
+
+      <ul>
+        <li>
+          HTML stands for Hyper Text Markup Language
+        </li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>
+          HTML describes the structure of a Web page
+        </li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>Editors</header>
+    <article>
+      <p>
+        Web pages can be created and modified by using professional HTML editors.
+      </p>
+
+      <p>
+        However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+      </p>
+      <p>
+        We believe in that using a simple text editor is a good way to learn HTML.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Basic</header>
+    <article>
+      All HTML documents must start with a document type declaration: 
+      <code>&lt;!DOCTYPE html&gt;</code> 
+      The HTML document itself begins with:
+      <code>&lt;html&gt; and ends with &lt;/html&gt;</code> 
+      The visible part of the HTML document is between:
+      <code>&lt;body&gt; and &lt;/body&gt;</code>
+    </article>
+  </section>
+  <section class="main-section" id="Variables">
+    <header>Elements</header>
+    <p>
+      The HTML element is everything from the start tag to the end tag
+      <code>&lt;tagname&gt;Content goes here...&lt;/tagname&gt;</code>
+    </p>
+    <p>
+      Examples of some HTML elements:
+      <code>&lt;h1My First Heading/h1&gt; 
+      	&lt;p&gt;My first paragraph.&lt;/p&gt;</code>
+    </p>
+  </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Attributes</header>
+    <article>
+      HTML attributes provide additional information about HTML elements.
+      <ul>
+      	<li>All HTML elements can have attributes</li>
+      	<li>Attributes provide additional information about elements</li>
+      	<li>Attributes are always specified in the start tag</li>
+      	<li>Attributes usually come in name/value pairs like: name="value"</li>
+      </ul>
+      The href Attribute:
+      	The &lt;a&gt; tag defines a hyperlink. The &lt;href&gt; attribute specifies the URL of the page the link goes to:
+      	<code>&lt;a&gt; href="https://www.w3schools.com">Visit W3Schools &lt;/a&gt;</code>
+    </article>
+  </section>
+  <section class="main-section" id="Variable_scope">
+    <header>Headings</header>
+    <article>
+      <p>
+        HTML headings are titles or subtitles that you want to display on a webpage.
+      </p>
+
+      <p>
+        HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+      </p>
+      <p>
+        &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading example:
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+			  &lt;h2&gt;Heading 2&lt;/h2&gt;
+			  &lt;h3&gt;Heading 3&lt;/h3&gt;
+			  &lt;h4&gt;Heading 4&lt;/h4&gt;
+		  	  &lt;h5&gt;Heading 5&lt;/h5&gt;
+			  &lt;h6&gt;Heading 6&lt;/h6&gt;
+		</code>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Global_variables">
+    <header>Paragraphs</header>
+    <article>
+      <p>
+        A paragraph always starts on a new line, and is usually a block of text.
+      </p>
+
+      <p>
+        The HTML &lt;p&gt; element defines a paragraph.
+        A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+        <code>
+        	&lt;p&gt;This is a paragraph.&lt;/p&gt;
+			&lt;p&gt;This is another paragraph.&lt;/p&gt;
+        </code>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Constants">
+    <header>Styles</header>
+    <article>
+      <p>
+        The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+        <code>
+        	&lt;!DOCTYPE html&gt;
+			&lt;html&gt;
+			&lt;body&gt;
+
+			&lt;p&gt;I am normal&lt;/p&gt;
+			&lt;p style="color:red;"&gt;I am red&lt;/p&gt;
+			&lt;p style="color:blue;"&gt;I am blue&lt;/p&gt;
+			&lt;p style="font-size:50px;"&gt;I am big&lt;/p&gt;
+
+			&lt;/body&gt;
+        </code>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Data_types">
+    <header>Formatting</header>
+    <article>
+      <p>HTML contains several elements for defining text with a special meaning.</p>
+      <ul>
+        <li> &lt;b&gt; - Bold text &lt;/li&gt;
+        <li> &lt;strong&gt; - Important text &lt;/li&gt;
+        <li> &lt;i&gt; - Italic text &lt;/li&gt;
+        <li> &lt;em&gt; - Emphasized text &lt;/li&gt;
+        <li> &lt;mark&gt; - Marked text &lt;/li&gt;
+        <li> &lt;small&gt; - Smaller text &lt;/li&gt;
+        <li> &lt;del&gt; - Deleted text &lt;/li&gt;
+        <li> &lt;ins&gt; - Inserted text &lt;/li&gt;
+        <li> &lt;sub&gt; - Subscript text &lt;/li&gt;
+        <li> &lt;sup&gt; - Superscript text &lt;/li&gt;
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="if...else_statement">
+    <header>Quotation</header>
+    <article>
+      In this chapter we will go through the:
+      <ul>
+      	<li>&lt;blockquote&gt;</li>
+      	<li>&lt;q&gt;</li>
+      	<li>&lt;abbr&gt;</li>
+      	<li>&lt;address&gt;</li>
+      	<li>&lt;cite&gt;</li>
+      	<li>&lt;bdo&gt;</li>
+      </ul>
+      and  HTML elements.
+    </article>
+  </section>
+  <section class="main-section" id="while_statement">
+    <header>Comments</header>
+    <article>
+      HTML comments are not displayed in the browser, but they can help document your HTML source code.
+
+      <code>&lt;!-- Write your comments here --&gt;</code>
+      Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+      <p>
+        Note: Comments are not displayed by the browser, but they can help document your HTML source code.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Function_declarations">
+    <header>Colors</header>
+    <article>
+      HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+      <p>In HTML, a color can be specified by using a color name:</p>
+      <code>
+      	&lt;!DOCTYPE html&gt;
+		&lt;html&gt;
+		&lt;body&gt;
+
+		&lt;h1 style="background-color:Tomato;"&gt;Tomato&lt;/h1&gt;
+		&lt;h1 style="background-color:Orange;"&gt;Orange&lt;/h1&gt;
+		&lt;h1 style="background-color:DodgerBlue;"&gt;DodgerBlue&lt;/h1&gt;
+		&lt;h1 style="background-color:MediumSeaGreen;"&gt;MediumSeaGreen&lt;/h1&gt;
+		&lt;h1 style="background-color:Gray;"&gt;Gray&lt;/h1&gt;
+		&lt;h1 style="background-color:SlateBlue;"&gt;SlateBlue&lt;/h1&gt;
+		&lt;h1 style="background-color:Violet;"&gt;Violet&lt;/h1&gt;
+		&lt;h1 style="background-color:LightGray;"&gt;LightGray&lt;/h1&gt;
+
+		&lt;/body&gt;
+		&lt;/html&gt;
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.w3schools.com/html/default.asp"
+            target="_blank"
+            >w3schools</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+</body>
+</html>
